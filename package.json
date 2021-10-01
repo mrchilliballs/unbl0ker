@@ -1,0 +1,21 @@
+{
+  "name": "unbl0ker",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Unbl0ker is a proxy under development for unblocking school computer specifically on dadeschools.",
+  "repository": {
+    "url": "https://github.com/mrchilliballs/unbl0ker.git"
+  },
+  "license": "GNU GENERAL PUBLIC LICENSE V3",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
