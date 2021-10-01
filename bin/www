@@ -8,7 +8,7 @@ var app = require('../app');
 var debug = require('debug')('unbl0ker:server');
 var http = require('http');
 const Unblocker = require("unblocker");
-const unblocker = new Unblocker({prefix: '/proxy/'});
+const unblocker = new Unblocker({prefix: '/'});
 
 /**
  * Get port from environment and store in Express.
