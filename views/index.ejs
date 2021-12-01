@@ -7,5 +7,12 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <input type="text" id="urlForm">
+    <input type="submit" value="">
+    <script>
+      document.onsubmit = () =>{
+        document.URL("https://unbl0ker.herokuapp.com/proxy/" + document.getElementById("urlForm").value)
+      }
+    </script>
   </body>
 </html>
