@@ -12,7 +12,7 @@
     <input type="text" id="urlForm"><br>
     <input type="submit" value="Submit!" class="btn btn-danger">
     <script>
-      document.onsubmit = () =>{
+      document.body.addEventListener("submit"){
         window.location.href = "https://unbl0ker.herokuapp.com/proxy/" + document.getElementById("urlForm").value;
       }
     </script>
