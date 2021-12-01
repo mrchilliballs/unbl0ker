@@ -10,9 +10,9 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %>, please enter URL to proxy</p>
     <input type="text" id="urlForm"><br>
-    <input type="submit" value="Submit!" class="btn btn-danger">
+    <button class="btn btn-danger btn-sm">GO!</button>
     <script>
-      document.body.addEventListener("submit", ()=>{window.location.href = "https://unbl0ker.herokuapp.com/proxy/" + document.getElementById("urlForm").value;})
+      document.querySelector("#submitBtn").addEventListener("click", ()=>{window.location.href = "https://unbl0ker.herokuapp.com/proxy/" + document.getElementById("urlForm").value;})
 
     </script>
     <footer>Made by wildsir with <a href="https://github.com/nfriedly/node-unblocker">node-unblocker</a>. Find the source code at <a href="https://github.com/mrchilliballs/unbl0ker">https://github.com/mrchilliballs/unbl0ker</a></footer>
