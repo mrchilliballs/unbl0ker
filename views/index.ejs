@@ -10,7 +10,7 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %>, please enter URL to proxy</p>
     <input type="text" id="urlForm"><br>
-    <button class="btn btn-danger btn-sm">GO!</button>
+    <button class="btn btn-danger btn-sm" id="submitBtn">GO!</button>
     <script>
       document.querySelector("#submitBtn").addEventListener("click", ()=>{window.location.href = "https://unbl0ker.herokuapp.com/proxy/" + document.getElementById("urlForm").value;})
 
